@@ -1,1 +1,1 @@
-![Radom Emojis screenshot(screenshot.png]
+![Radom Emojis screenshot](screenshot.png]
