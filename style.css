@@ -1,0 +1,48 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ccc;
+}
+.video-background {
+  position: fixed;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  top: 0;
+  left: 0;
+}
+.btn-music {
+  position: absolute;
+  z-index: 8;
+  top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  opacity: 0.7;
+  background-color: darkblue;
+  color: white;
+  font-family: cursive;
+  border-color: darkorange;
+}
+
+.btn-music:hover {
+  border-color: brown;
+  filter: grayscale(1);
+}
+.btn-music:active {
+  transform: scale(1.1);
+}
+#emoji {
+  font-size: 10rem;
+  filter: grayscale(1);
+  cursor: pointer;
+  transition-property: transform, filter;
+  transition-duration: 200ms;
+}
+#emoji:hover {
+  transform: scale(1, 3);
+  filter: grayscale(0);
+}
